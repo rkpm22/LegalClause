@@ -42,7 +42,7 @@ The system achieves **97.87% classification accuracy** and delivers actionable r
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/rahul-mandadi/LegalClause.git
+https://github.com/rkpm22/LegalClause.git
 cd LegalClause
 ```
 
