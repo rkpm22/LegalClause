@@ -65,7 +65,7 @@ echo "GOOGLE_API_KEY = 'your-api-key-here'" > .streamlit/secrets.toml
 
 ### Running the Application
 
-The fine-tuned Legal-BERT model is hosted on Hugging Face at `RahulMandadi/fine-tuned-legal-bert` and is automatically loaded by the application.
+The fine-tuned Legal-BERT model is hosted on Hugging Face at `RaunakKhalsa/fine-tuned-legal-bert` and is automatically loaded by the application.
 
 Start the Streamlit application:
 ```bash
@@ -101,7 +101,7 @@ LegalClause/
 - **Recall**: 97.21%
 - **F1 Score**: 97.51%
 
-The fine-tuned Legal-BERT model is hosted on HuggingFace at `RahulMandadi/fine-tuned-legal-bert` and can be accessed directly via the Transformers library. It significantly outperforms the baseline across all metrics, particularly in recall, which is critical for legal applications where missing relevant clauses can have serious consequences.
+The fine-tuned Legal-BERT model is hosted on HuggingFace at `RaunakKhalsa/fine-tuned-legal-bert` and can be accessed directly via the Transformers library. It significantly outperforms the baseline across all metrics, particularly in recall, which is critical for legal applications where missing relevant clauses can have serious consequences.
 
 ## Future Enhancements
 
@@ -114,7 +114,7 @@ The fine-tuned Legal-BERT model is hosted on HuggingFace at `RahulMandadi/fine-t
 ## How It Works
 
 1. **Clause Input**: Users enter contract clauses into the Streamlit chat interface
-2. **Classification**: The application loads the fine-tuned Legal-BERT model from HuggingFace (`RahulMandadi/fine-tuned-legal-bert`) to identify the clause type
+2. **Classification**: The application loads the fine-tuned Legal-BERT model from HuggingFace (`RaunakKhalsa/fine-tuned-legal-bert`) to identify the clause type
 3. **Risk Analysis**: Google's Gemini 2.0 Flash API (`gemini-2.0-flash-thinking-exp-01-21`) analyzes the clause for potential legal risks
 4. **Output**: The system displays the classification result and risk analysis in a structured format with markdown formatting
 
